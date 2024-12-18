@@ -12,6 +12,7 @@
 
 section {
     background-color: #fafafa;
+    height: 100vh;
 }
 
 /* Navbar Start */
@@ -59,3 +60,38 @@ nav {
 }
 
 /* Navbar End */
+
+/* Body Start */
+
+/* CAROUSEL */
+.custom-carousel .carousel-inner {
+    max-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+
+}
+/* CAROUSEL */
+#home .carousel .title {
+    width: 100%;
+    padding: 0.8rem 15% 0.8rem 0;
+    background-color: var(--darkprimary);
+}
+
+#home .carousel .title .title-ksr {
+    width: 50%;
+    margin-left: 2rem;
+    background-color: var(--bg);
+    border-radius: 100px;
+}
+
+#home .carousel .title .title-ksr h4 span {
+    color: var(--primary);
+}
+/* Body End */
+
+/* Responsif */
