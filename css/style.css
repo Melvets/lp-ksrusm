@@ -92,6 +92,11 @@ nav {
 #home .carousel .title .title-ksr h4 span {
     color: var(--primary);
 }
+
+/* About */
+#about {
+    padding: 0.8rem 15%;
+}
 /* Body End */
 
 /* Responsif */
