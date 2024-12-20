@@ -63,6 +63,10 @@ nav {
 
 /* Body Start */
 
+#home{
+    height: 615px;
+}
+
 /* CAROUSEL */
 .custom-carousel .carousel-inner {
     max-height: 500px;
@@ -94,8 +98,21 @@ nav {
 }
 
 /* About */
-#about {
-    padding: 0.8rem 15%;
+.about1 {
+    padding: 8rem 15% 2.5rem 15%;
+}
+
+.about2 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    border-radius: 100px;
+    background-color: var(--darkprimary);
+    padding: 2rem 15%;
+}
+
+/* Pengurus */
+#pengurus {
+    padding-top: 8rem;
 }
 /* Body End */
 
