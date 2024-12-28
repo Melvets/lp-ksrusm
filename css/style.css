@@ -113,7 +113,28 @@ nav {
 /* Pengurus */
 #pengurus {
     padding-top: 8rem;
+    background-color: var(--darkprimary);
+    padding: 8rem 13% 2.5rem 15%;
+}
+
+.detail {
+    padding: 3rem 3rem;
+    border-radius: 100px;
+    font-size: 0.7em;
+    color: var(--bg);
+    background-color: var(--primary);
+}
+
+/* media */
+#media{
+    padding: 8rem 15% 2.5rem 15%;
 }
 /* Body End */
+
+/* Footer */
+#footer{
+    padding: 2.5rem 15%;
+    background-color: var(--darkprimary);
+}
 
 /* Responsif */
